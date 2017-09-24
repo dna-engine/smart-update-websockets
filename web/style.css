@@ -1,0 +1,13 @@
+body >header >figure >img {
+   height: 50px;
+   }
+body >footer output {
+   display: block;
+   width:  100%;
+   background-color: gainsboro;
+   padding: 10px;
+   }
+body >footer output code {
+   display: block;
+   color: dimgray;
+   }
