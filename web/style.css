@@ -4,6 +4,7 @@ body >header >figure >img {
 body >footer output {
    display: block;
    width:  100%;
+   text-align: left;
    background-color: gainsboro;
    padding: 10px;
    }
