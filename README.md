@@ -1,10 +1,12 @@
 # dnajs-smart-update-websockets
 <img src=http://dnajs.org/graphics/dnajs-logo.png align=right width=160 alt=logo>
-_Example WebSockets server and client showing throttled live updates using dna.js_
+*Example WebSockets server and client showing throttled live updates using dna.js*
 
 [![Build Status](https://travis-ci.org/dnajs/dnajs-smart-update-websockets.svg)](https://travis-ci.org/dnajs/dnajs-smart-update-websockets)
 
 [dnajs.org](http://dnajs.org)
+
+![screenshot](screenshot.png)
 
 Try it out:
 
