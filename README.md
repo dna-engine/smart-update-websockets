@@ -5,8 +5,6 @@
 
 [![Build Status](https://travis-ci.org/dnajs/dnajs-smart-update-websockets.svg)](https://travis-ci.org/dnajs/dnajs-smart-update-websockets)
 
-[dnajs.org](http://dnajs.org)
-
 Try it out:
 
 1. Install Node.js from: https://nodejs.org
@@ -16,6 +14,9 @@ Try it out:
 1. In your web browser, go to: http://localhost:7777
 
 ![screenshot](screenshot.png)
+
+Smart Update documentation:<br>
+[dnajs.org/docs](http://dnajs.org/docs/#event-smart)
 
 ---
 [MIT License](LICENSE.txt)
