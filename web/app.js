@@ -1,5 +1,5 @@
 var app = {
-   wsUrl: 'ws://localhost:8777/',
+   wsUrl: 'ws://localhost:7777/',
    ws: null,  //instance of WebSocket
    wsSend: function(message) {
       message.timestamp = Date.now();

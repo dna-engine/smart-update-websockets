@@ -13,7 +13,7 @@ Try it out:
 1. `cd dnajs-smart-update-websockets`
 1. `npm install`
 1. `npm start`
-1. In your web browser, go to: http://localhost:8777
+1. In your web browser, go to: http://localhost:7777
 
 ![screenshot](screenshot.png)
 
