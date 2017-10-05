@@ -33,7 +33,7 @@
       "test": "jshint server.js web/*.js"
    },
    "dependencies": {
-      "express": "~4.15",
+      "express": "~4.16",
       "jshint": "~2.9",
       "ws": "~3.2"
    }
