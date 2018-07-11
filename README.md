@@ -1,5 +1,5 @@
 # dnajs-smart-update-websockets
-<img src=http://dnajs.org/graphics/dnajs-logo.png align=right width=160 alt=logo>
+<img src=https://dnajs.org/graphics/dnajs-logo.png align=right width=160 alt=logo>
 
 *Example WebSockets server and client showing throttled live updates using dna.js*
 
@@ -16,7 +16,7 @@ Try it out:
 ![screenshot](screenshot.png)
 
 Smart Update documentation:<br>
-[dnajs.org/docs](http://dnajs.org/docs/#event-smart)
+[dnajs.org/docs](https://dnajs.org/docs/#event-smart)
 
 ---
 [MIT License](LICENSE.txt)
