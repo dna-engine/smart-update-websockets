@@ -3,7 +3,7 @@
 <head>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width, initial-scale=1">
-<title>WebSockets &bull; Test</title>
+<title>WebSockets &bull; dna.js Smart Update</title>
 <link rel=icon       href=https://dnajs.org/graphics/bookmark.png>
 <link rel=stylesheet href=https://use.fontawesome.com/releases/v5.1.0/css/all.css>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/dna.js@1.4/dna.css>
@@ -20,7 +20,7 @@
 <main data-on-load=app.setup>
    <label>
       <span>Smart update:</span>
-      <input data-smart-update=app.actionSendMessage autofocus>
+      <input data-smart-update=app.actionSendMessage data-smart-throttle=3000 autofocus>
    </label>
    <button data-click=app.actionDisconnect>Disconnect</button>
 </main>

@@ -6,36 +6,36 @@
 
 projectHome=$(cd $(dirname $0); pwd)
 
-info() {
-     # Check for Node.js installation and download project dependencies
-     cd $projectHome
-     pwd
-     echo
-     echo "Node.js:"
-     which node || { echo "Need to install Node.js: https://nodejs.org"; exit; }
-     node --version
-     npm install
-     npm update
-     npm outdated
-     echo
-     }
+setupTools() {
+   # Check for Node.js installation and download project dependencies
+   cd $projectHome
+   pwd
+   echo
+   echo "Node.js:"
+   which node || { echo "Need to install Node.js: https://nodejs.org"; exit; }
+   node --version
+   npm install
+   npm update
+   npm outdated
+   echo
+   }
 
-runTests() {
-     cd $projectHome
-     echo "Testing:"
-     npm test
-     }
+runSpecs() {
+   cd $projectHome
+   echo "Specifications:"
+   npm test
+   }
 
 startServer() {
-     cd $projectHome
-     echo "Starting server:"
-     npm start
-     echo
-     }
+   cd $projectHome
+   echo "Starting server:"
+   npm start
+   echo
+   }
 
 echo
 echo "dna.js Smart Update over Websockets"
 echo "==================================="
-info
-runTests
+setupTools
+runSpecs
 startServer

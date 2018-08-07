@@ -35,6 +35,6 @@
    "dependencies": {
       "express": "~4.16",
       "jshint": "~2.9",
-      "ws": "~3.2"
+      "ws": "~6.0"
    }
 }
