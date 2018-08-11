@@ -5,7 +5,7 @@
    "license": "MIT",
    "private": true,
    "main": "server.js",
-   "repository": "dnajs/dnajs-smart-update-websockets",
+   "repository": "github:dnajs/dnajs-smart-update-websockets",
    "homepage": "https://github.com/dnajs/dnajs-smart-update-websockets",
    "bugs": "https://github.com/dnajs/dnajs-smart-update-websockets/issues",
    "keywords": [

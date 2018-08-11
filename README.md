@@ -1,7 +1,7 @@
 # dnajs-smart-update-websockets
 <img src=https://dnajs.org/graphics/dnajs-logo.png align=right width=160 alt=logo>
 
-*Example WebSockets server and client showing throttled live updates using dna.js*
+_Example WebSockets server and client showing throttled live updates using dna.js_
 
 [![Build Status](https://travis-ci.org/dnajs/dnajs-smart-update-websockets.svg)](https://travis-ci.org/dnajs/dnajs-smart-update-websockets)
 
