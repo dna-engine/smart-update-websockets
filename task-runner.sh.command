@@ -4,11 +4,14 @@
 # To make this file runnable:
 #      $ chmod +x *.sh.command
 
+banner="dna.js Smart Update over Websockets"
 projectHome=$(cd $(dirname $0); pwd)
 
 setupTools() {
-   # Check for Node.js installation and download project dependencies
    cd $projectHome
+   echo
+   echo $banner
+   echo $(echo $banner | sed -e "s/./=/g")
    pwd
    echo
    echo "Node.js:"
@@ -33,9 +36,6 @@ startServer() {
    echo
    }
 
-echo
-echo "dna.js Smart Update over Websockets"
-echo "==================================="
 setupTools
 runSpecs
 startServer
