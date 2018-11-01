@@ -8,16 +8,13 @@
    "repository": "github:dnajs/dnajs-smart-update-websockets",
    "homepage": "https://github.com/dnajs/dnajs-smart-update-websockets",
    "bugs": "https://github.com/dnajs/dnajs-smart-update-websockets/issues",
+   "author": "Center Key (https://centerkey.com)",
    "keywords": [
       "node",
       "websockets",
       "dna.js",
       "javascript"
    ],
-   "author": {
-      "name": "Center Key",
-      "url": "https://centerkey.com"
-   },
    "jshintConfig": {
       "esversion": 6,
       "strict": "implied",

@@ -3,7 +3,7 @@
 
 _Example WebSockets server and client showing throttled live updates using dna.js_
 
-[![Build Status](https://travis-ci.org/dnajs/dnajs-smart-update-websockets.svg)](https://travis-ci.org/dnajs/dnajs-smart-update-websockets)
+[![Build](https://travis-ci.org/dnajs/dnajs-smart-update-websockets.svg)](https://travis-ci.org/dnajs/dnajs-smart-update-websockets)
 
 Try it out:
 
