@@ -2,7 +2,7 @@
 # Task Runner
 
 # To make this file runnable:
-#      $ chmod +x *.sh.command
+#     $ chmod +x *.sh.command
 
 banner="dna.js Smart Update over Websockets"
 projectHome=$(cd $(dirname $0); pwd)
@@ -18,7 +18,7 @@ setupTools() {
    which node || { echo "Need to install Node.js: https://nodejs.org"; exit; }
    node --version
    npm install
-   npm update
+   npm update --no-save
    npm outdated
    echo
    }

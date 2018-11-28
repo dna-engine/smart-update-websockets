@@ -3,6 +3,8 @@
 
 _Example WebSockets server and client showing throttled live updates using dna.js_
 
+[![License:MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://dnajs.org/license)
+[![Vulnerabilities](https://snyk.io/test/github/dnajs/dnajs-smart-update-websockets/badge.svg)](https://snyk.io/test/github/dnajs/dnajs-smart-update-websockets)
 [![Build](https://travis-ci.org/dnajs/dnajs-smart-update-websockets.svg)](https://travis-ci.org/dnajs/dnajs-smart-update-websockets)
 
 Try it out:
