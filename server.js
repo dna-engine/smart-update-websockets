@@ -13,30 +13,30 @@ const server = http.createServer(app);
 
 // WebSockets server
 const wsServer = new WebSocket.Server({ server });
-function wsHandleConnection(ws, request) {
-   function wsSend(message) {
+const wsHandleConnection = (ws, request) => {
+   const wsSend = (message) => {
       console.log('Outgoing:', message);
       ws.send(JSON.stringify(message));
-      }
-   function wsHandleIncoming(string) {
+      };
+   const wsHandleIncoming = (string) => {
       const message = JSON.parse(string);
       console.log('Incoming:', message);
-      }
-   function wsHandleClose(code) {
+      };
+   const wsHandleClose = (code) => {
       console.log('Disconnected: close code %d', code);
-      }
+      };
    wsSend({ ok: true, note: 'Connection from client accepted' });
    console.log('New connection from client: %s', request.connection.remoteAddress);
    ws.on('message', wsHandleIncoming);
    ws.on('close',   wsHandleClose);
-   }
+   };
 wsServer.on('connection', wsHandleConnection);
 
 // Server startup
-function handleServerReady() {
+const handleServerReady = () => {
    const url = 'http://localhost:' + server.address().port;
    console.log('In your web browser, go to:');
    console.log(url);
    console.log('\n--- Server listening (hit CTRL-C to stop server) ---');
-   }
+   };
 server.listen(port, handleServerReady);

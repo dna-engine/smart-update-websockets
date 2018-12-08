@@ -1,34 +1,36 @@
-var app = {
+//! dnajs-smart-update-websockets ~ MIT License
+
+const app = {
    wsUrl: 'ws://localhost:7777/',
    ws: null,  //instance of WebSocket
-   wsSend: function(message) {
+   wsSend: (message) => {
       message.timestamp = Date.now();
       app.log({ outgoing: message });
       app.ws.send(JSON.stringify(message));
       },
-   wsHandleMessageEvent: function(event) {
+   wsHandleMessageEvent: (event) => {
       app.log({ incoming: JSON.parse(event.data) });
       },
-   wsHandleConnectEvent: function(event) {
+   wsHandleConnectEvent: (event) => {
       app.log({ connected: event.target.url });
       app.wsSend({ note: 'Client is connected' });
       },
-   wsInit: function() {
+   wsInit: () => {
       app.ws = new WebSocket(app.wsUrl);
       app.ws.onopen =   app.wsHandleConnectEvent;
       app.ws.onmessage = app.wsHandleMessageEvent;
       },
-   actionSendMessage: function(inputElem) {
+   actionSendMessage: (inputElem) => {
       app.wsSend({ text: inputElem.val() });
       },
-   actionDisconnect: function() {
+   actionDisconnect: () => {
       app.ws.close();
       app.log('*** End ***');
       },
-   log: function(value) {
+   log: (value) => {
       dna.clone('log', { value: JSON.stringify(value) }, { fade: true, top: true });
       },
-   setup: function() {
+   setup: () => {
       app.log('*** Start ***');
       app.wsInit();
       }
