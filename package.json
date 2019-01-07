@@ -20,6 +20,7 @@
       "strict": "implied",
       "undef": true,
       "unused": true,
+      "browser": true,
       "node": true,
       "globals": {
          "dna": false,
@@ -27,11 +28,17 @@
       }
    },
    "scripts": {
-      "test": "jshint server.js web/*.js"
+      "test": "jshint server.js web"
    },
    "dependencies": {
       "express": "~4.16",
       "jshint": "~2.9",
       "ws": "~6.1"
+   },
+   "devDependencies": {
+      "@fortawesome/fontawesome-free": "~5.6",
+      "dna.js": "~1.5",
+      "jquery": "~3.3",
+      "web-ignition": "~1.0"
    }
 }
