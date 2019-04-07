@@ -4,7 +4,7 @@ const app = {
    wsUrl: 'ws://localhost:7777/',
    ws: null,  //instance of WebSocket
    wsSend: (message) => {
-      message.timestamp = Date.now();
+      message = { timestamp: Date.now(), ...message };
       app.log({ outgoing: message });
       app.ws.send(JSON.stringify(message));
       },
