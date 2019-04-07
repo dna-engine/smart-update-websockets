@@ -16,8 +16,9 @@
       "javascript"
    ],
    "jshintConfig": {
-      "esversion": 6,
+      "esversion": 9,
       "strict": "implied",
+      "eqeqeq": true,
       "undef": true,
       "unused": true,
       "browser": true,
@@ -33,10 +34,10 @@
    "dependencies": {
       "express": "~4.16",
       "jshint": "~2.10",
-      "ws": "~6.1"
+      "ws": "~6.2"
    },
    "devDependencies": {
-      "@fortawesome/fontawesome-free": "~5.7",
+      "@fortawesome/fontawesome-free": "~5.8",
       "dna.js": "~1.5",
       "jquery": "~3.3",
       "web-ignition": "~1.1"

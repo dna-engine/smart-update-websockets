@@ -10,6 +10,7 @@ _Example WebSockets server and client showing throttled live updates using dna.j
 Try it out:
 
 1. Install Node.js from: https://nodejs.org
+1. `git clone https://github.com/dnajs/dnajs-smart-update-websockets.git`
 1. `cd dnajs-smart-update-websockets`
 1. `npm install`
 1. `npm start`
