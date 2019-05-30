@@ -31,6 +31,7 @@ runSpecs() {
 
 startServer() {
    cd $projectHome
+   sleep 3 && open http://localhost:7777 &
    echo "Starting server:"
    npm start
    echo
