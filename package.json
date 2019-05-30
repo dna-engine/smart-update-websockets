@@ -3,7 +3,6 @@
    "description": "Example WebSockets server and client showing throttled live updates using dna.js",
    "version": "1.0.0",
    "license": "MIT",
-   "private": true,
    "main": "server.js",
    "repository": "github:dnajs/dnajs-smart-update-websockets",
    "homepage": "https://github.com/dnajs/dnajs-smart-update-websockets",
@@ -32,9 +31,9 @@
       "test": "jshint server.js web"
    },
    "dependencies": {
-      "express": "~4.16",
+      "express": "~4.17",
       "jshint": "~2.10",
-      "ws": "~6.2"
+      "ws": "~7.0"
    },
    "devDependencies": {
       "@fortawesome/fontawesome-free": "~5.8",
