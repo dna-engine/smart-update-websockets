@@ -12,9 +12,9 @@ server.on('close',     () => console.log('--- Sever shutdown'));
 
 // WebSockets server
 const wsServer = new WebSocket.Server({ server });
-let nextId = 0;
+let nextClientId = 0;
 const wsHandleConnection = (ws, request) => {
-   const id = nextId++;
+   const id = nextClientId++;
    const wsSend = (message) => {
       console.log(id + '-> Outgoing:', message);
       ws.send(JSON.stringify(message));
