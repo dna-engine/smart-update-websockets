@@ -33,10 +33,10 @@
    "dependencies": {
       "express": "~4.17",
       "jshint": "~2.10",
-      "ws": "~7.0"
+      "ws": "~7.2"
    },
    "devDependencies": {
-      "@fortawesome/fontawesome-free": "~5.8",
+      "@fortawesome/fontawesome-free": "~5.11",
       "dna.js": "~1.5",
       "jquery": "~3.4",
       "web-ignition": "~1.1"
