@@ -33,12 +33,12 @@
    "dependencies": {
       "bufferutil": "~4.0",
       "express": "~4.17",
-      "jshint": "~2.10",
+      "jshint": "~2.11",
       "utf-8-validate": "~5.0",
-      "ws": "~7.2"
+      "ws": "~7.3"
    },
    "devDependencies": {
-      "@fortawesome/fontawesome-free": "~5.12",
+      "@fortawesome/fontawesome-free": "~5.13",
       "dna.js": "~1.6",
       "jquery": "~3.5",
       "web-ignition": "~1.2"
