@@ -39,7 +39,7 @@
    },
    "devDependencies": {
       "@fortawesome/fontawesome-free": "~5.15",
-      "dna.js": "~1.6",
+      "dna.js": "~1.7",
       "jquery": "~3.5",
       "web-ignition": "~1.3"
    }
