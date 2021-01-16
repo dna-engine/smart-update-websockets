@@ -1,8 +1,8 @@
 // dnajs-smart-update-websockets
 
 // Imports
-const express =   require('express');
-const WebSocket = require('ws');
+import express from 'express';
+import WebSocket from 'ws';
 
 // Web server
 const port = process.env.port || 7777;
@@ -29,8 +29,8 @@ const wsHandleConnection = (ws, request) => {
       if (!wsServer.clients.size)
          server.close();
       };
-   wsSend({ ok: true, note: 'Connection from client accepted' });
-   console.log(id + '-> New connection from client:', request.connection.remoteAddress);
+   wsSend({ ok: true, id: id, note: 'Connection from client accepted' });
+   console.log(id + '-> New connection from client [', request.connection.remoteAddress, ']');
    console.log('--- Total clients:', wsServer.clients.size);
    ws.on('message', wsHandleIncoming);
    ws.on('close',   wsHandleClose);
