@@ -34,7 +34,7 @@
    "dependencies": {
       "bufferutil": "~4.0",
       "express": "~4.17",
-      "jshint": "~2.12",
+      "jshint": "~2.13",
       "utf-8-validate": "~5.0",
       "ws": "~7.4"
    },
