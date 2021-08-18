@@ -36,11 +36,11 @@
       "express": "~4.17",
       "jshint": "~2.13",
       "utf-8-validate": "~5.0",
-      "ws": "~8.0"
+      "ws": "~8.1"
    },
    "devDependencies": {
       "@fortawesome/fontawesome-free": "~5.15",
-      "dna.js": "~1.8",
+      "dna.js": "~1.9",
       "jquery": "~3.6",
       "web-ignition": "~1.4"
    }
