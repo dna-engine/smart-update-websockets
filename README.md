@@ -5,7 +5,7 @@ _Example WebSockets server and client showing throttled live updates using dna.j
 
 [![License:MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://dnajs.org/license)
 [![Vulnerabilities](https://snyk.io/test/github/dnajs/dnajs-smart-update-websockets/badge.svg)](https://snyk.io/test/github/dnajs/dnajs-smart-update-websockets)
-[![Build](https://github.com/dnajs/dnajs-smart-update-websockets/workflows/build/badge.svg)](https://github.com/dnajs/dnajs-smart-update-websockets/actions?query=workflow%3Abuild)
+[![Build](https://github.com/dnajs/dnajs-smart-update-websockets/workflows/build/badge.svg)](https://github.com/dnajs/dnajs-smart-update-websockets/actions/workflows/run-spec-on-push.yaml)
 
 Try it out:
 
