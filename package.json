@@ -36,7 +36,7 @@
       "express": "~4.18",
       "jshint": "~2.13",
       "utf-8-validate": "~5.0",
-      "ws": "~8.7"
+      "ws": "~8.8"
    },
    "devDependencies": {
       "@fortawesome/fontawesome-free": "~6.1",
