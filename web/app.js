@@ -1,4 +1,4 @@
-//! dnajs-smart-update-websockets ~ MIT License
+//! smart-update-websockets ~ MIT License
 
 const app = {
    wsUrl: 'ws://localhost:7777/',

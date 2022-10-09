@@ -1,18 +1,18 @@
 {
-   "name": "dnajs-smart-update-websockets",
-   "description": "Example WebSockets server and client showing throttled live updates using dna.js",
+   "name": "smart-update-websockets",
+   "description": "Example WebSockets server and client showing throttled live updates using dna-engine",
    "version": "1.0.0",
    "license": "MIT",
    "type": "module",
    "main": "server.js",
-   "repository": "github:dnajs/dnajs-smart-update-websockets",
-   "homepage": "https://github.com/dnajs/dnajs-smart-update-websockets",
-   "bugs": "https://github.com/dnajs/dnajs-smart-update-websockets/issues",
+   "repository": "github:dna-engine/smart-update-websockets",
+   "homepage": "https://github.com/dna-engine/smart-update-websockets",
+   "bugs": "https://github.com/dna-engine/smart-update-websockets/issues",
    "author": "Center Key (https://centerkey.com)",
    "keywords": [
       "node",
       "websockets",
-      "dna.js",
+      "dna-engine",
       "javascript"
    ],
    "jshintConfig": {
@@ -40,7 +40,7 @@
    },
    "devDependencies": {
       "@fortawesome/fontawesome-free": "~6.2",
-      "dna.js": "~2.0",
+      "dna-engine": "~2.2",
       "jquery": "~3.6",
       "web-ignition": "~1.5"
    }

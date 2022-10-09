@@ -6,7 +6,7 @@
 # To make this file runnable:
 #     $ chmod +x *.sh.command
 
-banner="dna.js Smart Update over Websockets"
+banner="Smart Update over Websockets"
 projectHome=$(cd $(dirname $0); pwd)
 
 setupTools() {

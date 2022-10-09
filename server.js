@@ -1,4 +1,4 @@
-// dnajs-smart-update-websockets
+// smart-update-websockets
 
 // Imports
 import express             from 'express';
