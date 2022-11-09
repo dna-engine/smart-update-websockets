@@ -1,8 +1,8 @@
 // smart-update-websockets
 
 // Imports
-import express             from 'express';
 import { WebSocketServer } from 'ws';
+import express from 'express';
 
 // Web server
 const port =   process.env.port || 7777;
