@@ -23,7 +23,8 @@ const app = {
    actionSendMessage(inputElem) {
       app.wsSend({ text: inputElem.val() });
       },
-   actionDisconnect() {
+   actionDisconnect(button) {
+      button.prop({ disabled: true });
       app.ws.close();
       app.log('*** End ***');
       },
