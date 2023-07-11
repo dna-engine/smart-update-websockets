@@ -16,15 +16,15 @@ const app = {
       app.wsSend({ note: 'Client is connected' });
       },
    wsInit() {
-      app.ws = new WebSocket(app.wsUrl);
-      app.ws.onopen =   app.wsHandleConnectEvent;
+      app.ws =           new WebSocket(app.wsUrl);
+      app.ws.onopen =    app.wsHandleConnectEvent;
       app.ws.onmessage = app.wsHandleMessageEvent;
       },
    actionSendMessage(inputElem) {
-      app.wsSend({ text: inputElem.val() });
+      app.wsSend({ text: inputElem.value });
       },
    actionDisconnect(button) {
-      button.prop({ disabled: true });
+      button.disabled = true;
       app.ws.close();
       app.log('*** End ***');
       },

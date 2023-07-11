@@ -11,13 +11,12 @@
    <link rel=icon       href=https://dna-engine.org/graphics/bookmark.png>
    <link rel=preconnect href=https://fonts.googleapis.com>
    <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
-   <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2/css/all.min.css>
-   <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/dna-engine@2.3/dist/dna-engine.css>
-   <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/web-ignition@1.6/dist/reset.min.css>
+   <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4/css/all.min.css>
+   <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/dna-engine@3.0/dist/dna-engine.css>
+   <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/web-ignition@2.0/dist/reset.min.css>
    <link rel=stylesheet href=style.css>
    <style>main { min-height: auto; }</style>
-   <script defer src=https://cdn.jsdelivr.net/npm/jquery@3.6/dist/jquery.min.js></script>
-   <script defer src=https://cdn.jsdelivr.net/npm/dna-engine@2.3/dist/dna-engine.min.js></script>
+   <script defer src=https://cdn.jsdelivr.net/npm/dna-engine@3.0/dist/dna-engine.min.js></script>
    <script defer src=app.js></script>
 </head>
 <body>
@@ -30,9 +29,9 @@
 <main data-on-load=app.setup>
    <label>
       <span>Smart update:</span>
-      <input data-smart-update=app.actionSendMessage data-smart-throttle=3000 autofocus>
+      <input data-on-smart-update=app.actionSendMessage data-smart-throttle=3000 autofocus>
    </label>
-   <button data-click=app.actionDisconnect>Disconnect</button>
+   <button data-on-click=app.actionDisconnect>Disconnect</button>
 </main>
 
 <footer>
