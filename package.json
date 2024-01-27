@@ -4,7 +4,8 @@
    "version": "1.0.0",
    "license": "MIT",
    "type": "module",
-   "main": "server.js",
+   "module": "server.js",
+   "exports": "./server.js",
    "repository": {
       "type": "git",
       "url": "git+https://github.com/dna-engine/smart-update-websockets.git"
@@ -38,11 +39,11 @@
       "bufferutil": "~4.0",
       "express": "~4.18",
       "jshint": "~2.13",
-      "ws": "~8.14"
+      "ws": "~8.16"
    },
    "devDependencies": {
-      "@fortawesome/fontawesome-free": "~6.4",
-      "dna-engine": "~3.0",
-      "web-ignition": "~2.0"
+      "@fortawesome/fontawesome-free": "~6.5",
+      "dna-engine": "~3.1",
+      "web-ignition": "~2.1"
    }
 }
