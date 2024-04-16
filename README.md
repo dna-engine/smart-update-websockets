@@ -4,7 +4,7 @@
 _Example WebSockets server and client showing throttled live updates using dna-engine_
 
 [![License:MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://dna-engine.org/license)
-[![Build](https://github.com/dna-engine/smart-update-websockets/workflows/build/badge.svg)](https://github.com/dna-engine/smart-update-websockets/actions/workflows/run-spec-on-push.yaml)
+[![Build](https://github.com/dna-engine/smart-update-websockets/actions/workflows/run-spec-on-push.yaml/badge.svg)](https://github.com/dna-engine/smart-update-websockets/actions/workflows/run-spec-on-push.yaml)
 
 Try it out:
 
