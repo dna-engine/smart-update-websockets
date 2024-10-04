@@ -37,12 +37,12 @@
    },
    "dependencies": {
       "bufferutil": "~4.0",
-      "express": "~4.19",
+      "express": "~4.21",
       "jshint": "~2.13",
-      "ws": "~8.17.1"
+      "ws": "~8.18"
    },
    "devDependencies": {
-      "@fortawesome/fontawesome-free": "~6.5",
+      "@fortawesome/fontawesome-free": "~6.6",
       "dna-engine": "~3.2",
       "web-ignition": "~2.2"
    }
