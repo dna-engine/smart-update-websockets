@@ -33,7 +33,8 @@
       }
    },
    "scripts": {
-      "test": "jshint . --exclude-path .gitignore"
+      "pretest": "jshint . --exclude-path .gitignore",
+      "test": "html-validator web"
    },
    "dependencies": {
       "bufferutil": "~4.0",
@@ -42,8 +43,9 @@
       "ws": "~8.18"
    },
    "devDependencies": {
-      "@fortawesome/fontawesome-free": "~7.0",
+      "@fortawesome/fontawesome-free": "~7.1",
       "dna-engine": "~3.3",
-      "web-ignition": "~2.4"
+      "web-ignition": "~2.4",
+      "w3c-html-validator": "~1.9"
    }
 }
